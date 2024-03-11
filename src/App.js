@@ -44,7 +44,6 @@ function App() {
           <TodoItem key={task.id} task={task} onDelete={deleteTask} />
         ))}
       </ul>
-      <p>Total tasks: {totalCount}</p>
     </div>
   );
 }
